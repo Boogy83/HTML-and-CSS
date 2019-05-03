@@ -1,0 +1,26 @@
+nav{
+    text-align: center;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #cccccc;
+}
+ul{
+    background-color: #444444;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+li{
+    font-size:24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
