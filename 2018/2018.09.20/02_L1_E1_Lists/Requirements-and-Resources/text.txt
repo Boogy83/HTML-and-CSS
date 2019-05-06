@@ -7,5 +7,3 @@ Reversed list
 Alt-text is not a description of an image, but a replacement for the image in case it is not displayed.
 An ampersand character “&” must always be escaped like this: “&” – even in URLs.
 Most presentation-based HTML tags are deprecated in recent versions of HTML.
-
-test
