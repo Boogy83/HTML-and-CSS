@@ -1,5 +1,5 @@
-Semantic Tables
-Diary
+
+
 
 Food
 Grams
