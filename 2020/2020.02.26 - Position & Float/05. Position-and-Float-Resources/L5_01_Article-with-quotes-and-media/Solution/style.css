@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    width: 55%;
+    margin: auto;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+img:first-of-type {
+    float: right;
+    margin-left: 10px;
+}
+
+img:last-of-type {
+    margin-right: 10px;
+    float: left;
+}
+
+h2 {
+    clear: both;
+}
+
+.left {
+    float: left;
+    width: 60%;
+}
+
+blockquote {
+    border-left: 1px solid;
+    float: right;
+    width: 40%;
+    height: 336px;
+}
+
+.clear {
+    clear: both;
+}

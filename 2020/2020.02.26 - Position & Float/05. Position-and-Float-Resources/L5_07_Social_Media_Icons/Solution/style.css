@@ -1,0 +1,37 @@
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    border-radius: 50%;
+}
+
+i {
+    font-size: 22px;
+    color: black
+}
+
+.fa-facebook-square:hover {
+    color: blue;
+}
+
+.fa-twitter:hover {
+    color: cyan;
+}
+
+.fa-google-plus-g:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: blue;
+}
+
+.fa-instagram:hover {
+    color: blue;
+}

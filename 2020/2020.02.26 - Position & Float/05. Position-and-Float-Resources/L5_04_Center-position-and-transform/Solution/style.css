@@ -1,0 +1,35 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+.card {
+    border: solid 1px;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+}
+
+.card-text {
+    margin: 15px;
+    position: relative;
+}
+
+button {
+    background: rgb(0, 153, 0);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    left: -275px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
