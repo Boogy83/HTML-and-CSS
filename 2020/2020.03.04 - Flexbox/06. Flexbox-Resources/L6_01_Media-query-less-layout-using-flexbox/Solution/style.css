@@ -1,19 +1,25 @@
+html {
+    padding: 10px;
+}
+
 body {
     display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
 }
 
 .a {
     border: solid 1px;
     border-radius: 10px;
-    /* flex-grow: initial;
-    flex-shrink: initial;
-    flex-basis: initial; */
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
 header {
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: auto;
+    flex-basis: 100%;
 }
 
 main {
@@ -26,10 +32,11 @@ aside {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
+    
 }
 
 footer {
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: auto;
+    flex-basis: 100%;
 }
