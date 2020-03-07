@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    flex-grow: 1;
+}
+
+img:nth-child(2){
+    flex-grow: 2;
+}
+
