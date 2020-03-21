@@ -1,0 +1,200 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gelasio', serif;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial;
+}
+
+h1 {
+	font-size: 55px;
+}
+
+h2 {
+	color: #53595c;
+	font-size: 35px;
+	margin: 0.5em 0;
+}
+
+header {
+	height: 550px;
+	background-image: url(../Requirements-and-Resources/images/map.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	align-items: center;
+}
+
+header nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+header nav ul li {
+	padding: 20px 15px;
+}
+
+header nav a {
+	color: #fff;
+}
+
+header nav a img {
+	height: 40px;
+}
+
+header h1 {
+	color: #fff;
+}
+
+header .img-cover {
+	object-fit: cover;
+	width: 100%;
+	z-index: -1;
+	height: 100%;
+}
+
+header .logo {
+	margin: 0 0 0 15px;
+}
+
+header .header-button {
+	border: 0;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 10px 7px;
+	background: #146594;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+main {
+	background: #e1e1e1;
+	padding: 0 0 20px 0;
+}
+
+main .container {
+	display: flex;
+	flex-direction: column;
+}
+
+main .container .inner-container {
+	display: flex;
+	flex-direction: row;
+}
+
+main img {
+	width: 100%;
+	height: 100%;
+}
+
+main .left {
+	flex: 2;
+	position: relative;
+	margin: 0;
+}
+
+main .right {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+}
+
+main h3 {
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	text-shadow: 1px 1px 3px #000000;
+	padding: 0;
+	margin: 0;
+}
+
+main .left h3 {
+	position: absolute;
+	top: 2em;
+	font-weight: normal;
+}
+
+main .right .right-top {
+	background-image: url(../Requirements-and-Resources/images/planning.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex: 1;
+	margin: 0;
+}
+
+main .right .right-top h3 {
+	margin: 15px 0 0 0;
+	font-weight: normal;
+}
+
+main .right .right-bottom {
+	background-image: url(../Requirements-and-Resources/images/budget.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex: 1;
+	display: flex;
+	align-items: flex-end;
+}
+
+main .right .right-bottom h3 {
+	text-align: left;
+	margin: 0 0 20px 0;
+	padding-left: 10px;
+	font-weight: normal;
+}
+
+footer {
+	background: #8c8c8c;
+}
+
+footer .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+footer ul li {
+	color: #cacaca;
+	border-right: 1px solid #cacaca;
+	padding: 0 10px;
+}
+
+footer ul li:last-child {
+	border: 0;
+}
+
+footer ul li a {
+	color: #cacaca;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}

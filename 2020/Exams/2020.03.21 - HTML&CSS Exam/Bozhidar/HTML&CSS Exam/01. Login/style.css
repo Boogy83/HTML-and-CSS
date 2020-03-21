@@ -1,0 +1,123 @@
+html, body {
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("./image.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    margin-top: 20px;
+    width: 300px;
+}
+
+fieldset {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0;
+    border: 0;
+}
+
+input {
+    flex: 0 1 100%;
+    padding: 5px;
+    padding-bottom: 0;
+    outline: none;
+    font-size: 18px;
+    background-color: transparent;
+    border: 0px solid;
+    height: 40px;
+    width: 160px;
+    color: #CCC;
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    border-color: black;
+}
+
+button {
+    background-color: #d41872;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.8em 2.8em;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+i {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+i::before {
+    padding-bottom: 2px;
+}
+
+hr {
+    border: 1px solid lightgrey;
+    margin: 0;
+}
+
+.container {
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+form .field {
+    display: flex;
+}
+
+#a {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+form p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form p i {
+    color: lightgrey;
+}

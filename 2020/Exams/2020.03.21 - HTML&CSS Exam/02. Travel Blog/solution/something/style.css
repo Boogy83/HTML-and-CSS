@@ -1,0 +1,87 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('layout.css');
+header {
+    background-image: url('../Requirements-and-Resources/images/map.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+}
+
+header nav .logo img {
+    height: 40px;
+}
+
+main {
+    background-color: #e1e1e1;
+}
+
+section {
+    width: 80%;
+    margin:auto;
+}
+
+footer {
+    background-color: #8c8c8c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+    padding-left: 10px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li+li {
+    border-left: 1px solid;
+}
+
+h1 {
+    color: white;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pack {
+    background-image: url('../Requirements-and-Resources/images/packing.jpg');
+    height: 500px;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background: red'
+}

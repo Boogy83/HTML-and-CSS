@@ -1,0 +1,131 @@
+@media screen and (max-width: 1250px) {
+	main {
+		display: flex;
+		padding: 0.5em 3em 0.5em 3em;
+		background-color: #000;
+		flex-direction: column;
+	}
+	main .main-movie ul {
+		width: 100%;
+	}
+	main .main-movie ul .main-movie-poster {
+		flex: 1;
+		padding: 0;
+	}
+	main .main-movie-poster img {
+		height: auto;
+	}
+	main .main-movie ul .main-movie-trailer {
+		flex: 2;
+		padding: 0;
+	}
+	main .main-movie ul .main-movie-trailer iframe {
+		width: 100% !important;
+		height: 100%;
+	}
+	main .main-movie ul li img {
+		width: calc(100% - 6vw);
+	}
+	.movies .movie-list .movie {
+		height: 25vw;
+	}
+	.movies {
+		margin: 100px 0;
+	}
+	.movies:last-child {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	main {
+		display: flex;
+		padding: 0.5em 3em 0.5em 3em;
+		background-color: #000;
+		flex-direction: column;
+		padding: 0;
+	}
+	.main-movie-poster {
+		display: none;
+	}
+	main .main-movie ul {
+		width: 80%;
+		height: 310px;
+	}
+	main .main-movie ul .main-movie-poster {
+		flex: 1;
+		padding: 0;
+		display: none;
+	}
+	main .main-movie-poster img {
+		height: auto;
+	}
+	main .main-movie ul .main-movie-trailer {
+		flex: 2;
+		padding: 0;
+	}
+	main .main-movie ul .main-movie-trailer iframe {
+		width: 100% !important;
+		height: 100%;
+	}
+	main .main-movie ul li img {
+		width: calc(100% - 6vw);
+	}
+	.movies .movie-list .movie {
+		height: 25vw;
+	}
+	.movies {
+		margin: 100px 0;
+	}
+	.movies:last-child {
+		margin-top: 0;
+	}
+
+	.ytp-cued-thumbnail-overlay-image {
+		background-size: contain;
+		-moz-background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+	
+}
+
+@media screen and (max-width: 414px) {
+	main {
+		padding: 0;
+	}
+	main .main-movie ul {
+		flex-direction: column;
+	}
+	main .main-movie ul li {
+		flex: 1 !important;
+	}
+	main .main-movie ul li:first-child {
+		display: none;
+	}
+	main .main-movie ul li img {
+		width: 100%;
+	}
+	main .main-movie ul .main-movie-trailer iframe {
+		width: calc(100% + 20px) !important;
+		height: calc(100% + 60px);
+		margin: 0 0 0 -10px;
+	}
+	section {
+		padding: 0 15px;
+	}
+	section ul {
+		flex-direction: column;
+	}
+	section .movie-list .movie {
+		height: unset !important;
+		width: 100%;
+		margin: 0 0 15px 0;
+	}
+	section .movie-list .movie:last-child {
+		margin: 0 !important;
+	}
+}

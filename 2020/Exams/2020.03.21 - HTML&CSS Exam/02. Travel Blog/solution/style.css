@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 450px;
+    background-image: url(../Requirements-and-Resources/images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header nav ul li {
+    padding: 20px 15px;
+}
+
+header nav a {
+    color: #fff;
+}
+
+header nav a img {
+    height: 40px;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header .img-cover {
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+
+header .logo {
+    margin: 0 0 0 15px;
+}
+
+header .header-button {
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 5px 5px;
+    background: blue;
+} 
+
+main {
+    background: #cdcdcd;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+}
+
+main .container .inner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+main img {
+    width: 100%;
+}
+
+main .left {
+    flex: 2;
+    height: 400px;
+}
+
+main .right {
+    flex: 3;
+}
